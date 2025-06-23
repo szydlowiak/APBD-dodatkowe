@@ -59,7 +59,7 @@ public class AppDbContext : DbContext
             {
                 EventId = 1,
                 ParticipantId = 1,
-                RegistrationDate = DateTime.UtcNow,
+                RegistrationDate = new DateTime(2025, 8, 18, 12, 0, 0, DateTimeKind.Utc),
                 Cancelled = false
             }
         );
